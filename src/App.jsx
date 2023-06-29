@@ -5,7 +5,7 @@ export default function App() {
   function allNewDice() {
     const newDice = [];
     for (let i = 0; i < 10; i++) {
-      const randomNumber = Math.floor(Math.random() * 6) + 1;
+      const randomNumber = Math.ceil(Math.random() * 6) 
       newDice.push(randomNumber);
     }
     return newDice;
