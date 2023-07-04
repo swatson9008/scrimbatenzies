@@ -79,7 +79,7 @@ export default function App() {
         <main>
             {tenzies && <Confetti />}
             <h1 className="title">Tenzies</h1>
-            <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls. See how low your turn count can go before you win!</p>
+            <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls. See how low your roll count can go before you win!</p>
             <div className="dice-container">
                 {diceElements}
             </div>
