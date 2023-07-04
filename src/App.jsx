@@ -84,7 +84,7 @@ export default function App() {
                 {diceElements}
             </div>
             <button className="roll-dice" onClick={rollDice}>{tenzies ? 'New Game' : 'Roll Dice'}</button>
-            <div>Turn Count: {turnCount}</div>
+            <div>Roll Count: {turnCount}</div>
         </main>
     )
 }
